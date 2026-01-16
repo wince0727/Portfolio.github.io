@@ -30,6 +30,11 @@ body {
   padding: 6px 16px;
 }
 
+.close-icon{
+    display: none;
+}
+
+
 /* HERO */
 .hero {
   min-height: 100vh;
@@ -101,3 +106,4 @@ body {
   background: black;
   text-align: center;
 }
+
