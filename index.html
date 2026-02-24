@@ -380,11 +380,12 @@ body, html {
 }
 
 .profile-img {
-  width: 80%;
-  height: auto;
-  max-width: 300px; 
-  border-radius: 50%; 
+  width: 300px;          /* Zoom size */
+  height: 350px;         /* Same height for perfect circle */
+  border-radius: 50%;
   object-fit: cover;
+  border: none;          /* Remove border */
+  box-shadow: #FFFF;      /* Remove white glow */
 }
 
 .profile-content {
@@ -420,7 +421,10 @@ body, html {
   }
 
   .profile-img {
-    max-width: 200px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
   }
 
   .name {
