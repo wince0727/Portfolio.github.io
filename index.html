@@ -741,8 +741,11 @@ h1 span{
     white-space: nowrap; 
     overflow: hidden; 
     border-right: 3px solid #FAFDFF; 
-    width: 0; 
-    animation: typing 3s steps(20) 1s forwards, blink 0.75s step-end infinite; 
+    
+    width: 12ch;   /* match text length */
+    
+    animation: typing 2s steps(12) forwards, 
+               blink 0.75s step-end infinite;
 }
 
 .animate_infinite {
